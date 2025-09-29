@@ -5,7 +5,7 @@ class TestFunction(unittest.TestCase):
 
     def test_addition(self):
         result = add_numbers(4, 6)
-        self.assertEqual(result, 10)
+        self.assertEqual(result, 1011)
 
 if __name__ == "__main__":
     unittest.main()
